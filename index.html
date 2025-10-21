@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tais Costa Terapeuta Energética</title>
+    <link rel="stylesheet" href="Projeto-taiscosta-html5/_css/estilo.css">
+</head>
+
+<script>
+function trocaFoto(tipo){
+            document.getElementById("MCA").src="Projeto-taiscosta-html5/_imagens/" + tipo + ".jpg";
+    }
+
+function trocaFotoMAP(tipo){
+       document.getElementById("MAP").src="Projeto-taiscosta-html5/_imagens/" + tipo + ".jpg";
+}
+</script>
+
+
+ <body> 
+ 
+    <header id="cabecalho">
+        <div class="header-container">
+                    <div class="header-image">
+
+         <img id="Logo" src="Projeto-taiscosta-html5/_imagens/Tais Costa 1.png">
+    </div>
+        <div class="header-text">
+        <hgroup>
+        <h1>Transformando vidas através da energia!</h1>
+        </hgroup>
+        </div>
+    </div>
+           
+    <nav id="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#servicos">Atendimentos</a></li>
+            <li><a href="#Ebooks">E-books</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+
+   
+
+     <main>
+        <section id="home">
+
+        <img id="bem-vindo" src="Projeto-taiscosta-html5/_imagens/Seja bem-vindo.jpg">
+            
+        </section>
+
+        <section id="about">
+                                                      
+            <img id="fotoPerfil" src="Projeto-taiscosta-html5/_imagens/Sobre mim_menor.jpg">
+                     
+        </section>
+
+        <section id="servicos">
+            <h1>Descubra como a terapia energética pode transformar sua vida.<h1>
+            <h2>Conheça meus atendimentos</h2>
+            <br>
+            <div class="servicos">
+                                   
+                        <img id="MCA" src="Projeto-taiscosta-html5/_imagens/MCA.jpg"  onmousemove="trocaFoto('MCA_2')" onmouseout="trocaFoto('MCA')" 
+                        onclick="window.open('mca.html', '_blank')"/>
+                                          
+                        <img id="MAP" src="Projeto-taiscosta-html5/_imagens/MAP.jpg" onmousemove="trocaFotoMAP('MAP_2')" onmouseout="trocaFotoMAP('MAP')"
+                        onclick="window.open('map.html', '_blank')"/>
+                </div>                                
+            </section>
+
+        <section id="Ebooks">
+            <h2>E-books</h2>
+            <p>Explore os e-books sobre terapias energéticas e bem-estar.</p>
+<div class="ebooks-container">
+    <div class="ebook-item">
+            <img id="Ebook3" src="Projeto-taiscosta-html5/_imagens/E-book 3.jpg">
+            <a href="Projeto-taiscosta-html5/_pdfs/EscudoEnergetico.pdf" target=" _blank" class = "botao-ebook">
+                <button>Baixe Grátis</button>
+            </a>
+            </div>
+            <div class="ebook-item">
+            <img id="Ebook2" src="Projeto-taiscosta-html5/_imagens/E-book 2_.jpg.">
+            <a href="https://go.hotmart.com/G101985331E?dp=1" target="_blank" class="botao-ebook">
+                <button>Compre R$17,90  </button>
+            </a>
+            </div>
+            <div class="ebook-item">
+            <img id="Ebook1" src="Projeto-taiscosta-html5/_imagens/E-book 1_.jpg">
+            <a href="https://go.hotmart.com/R101987468O?dp=1" target="_blank" class="botao-ebook">
+                <button>Compre R$17,90</button>
+            </a>
+            </div>
+</div>
+            </section>  
+
+        <section id="contact">
+            <br>
+            <h2>Contato</h2>
+          <div class ="contato-icones">
+         <p>
+        Instagram: 
+        <a href="https://www.instagram.com/taiscostaterapeuta" target="_blank" rel="noopener">
+        <img src="Projeto-taiscosta-html5/_imagens/instagram_icon.png" alt="Instagram" style="width:32px; height:32px; vertical-align:middle;">
+        </a>
+
+        <p> WhatsApp:
+        <a href="https://contate.me/5511989344004" target="_blank" rel="noopener">
+        <img src="Projeto-taiscosta-html5/_imagens/whatsapp_icon.png" alt="WhatsApp" style="width:32px; height:32px; vertical-align:middle;">
+        </a>    
+    </div>
+
+</body>  
+<footer>
+
+    <p>&copy; 2025 Tais Costa Terapeuta Energética. Todos os direitos reservados.</p>
+
+</footer>
+
+</HTML>

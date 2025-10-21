@@ -1,0 +1,251 @@
+@charset "UTF-8"
+
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte limpa e moderna */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Cor de fundo suave */
+    }
+
+p{
+    line-height: 1.5; 
+    color: #2c3a2c
+    font-family: 'Georgia', serif;
+    text-align: center;
+    font-size: 20px;
+   }
+
+h1{
+    color:#bc9c9a; /* Cor roxa para os títulos */
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fonte elegante para títulos */
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+h2, h3 {
+    color:#2c3a2c; /* Cor roxa para os títulos */
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fonte elegante para títulos */
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+/* Formatação Seja bem-vindo*/
+#bem-vindo {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 16px;        /* Opcional: borda arredondada */
+    margin-top: 2px;
+}
+
+
+/* Formatação about */
+#fotoPerfil {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;
+    border-radius: 16px;        /* Opcional: borda arredondada */
+    margin-top: 40px;   
+}
+
+#about {
+    background-color: white;
+             margin-bottom: 20px;
+}
+
+
+/* Formatação do Menu */
+
+nav#menu {
+   display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top:-10px;
+    left: 800px;    
+      
+}
+
+nav#menu li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    color:#2c3a2c
+text-decoration: none;
+    font-family: 'Georgia', serif; /* Fonte elegante para títulos */
+}
+
+nav#menu li:hover {
+    background-color: #bc9c9a; /* Cor roxa para hover */
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: #2c3a2c;
+}
+nav#menu a:hover {
+    text-decoration: none;
+    color: white
+}
+
+/*Estilos cabeçalho */
+header {
+    background-color: white; /* Cor de fundo suave */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #bc9c9a; /* Linha de separação */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha tudo à esquerda */
+}
+
+.header-image{
+    display: block;
+    float: left;
+    margin-left: 30px;
+
+}
+.header-text {
+    margin-left: 150px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilos para as seções de serviços */
+#servicos {
+    background-color: white;
+    padding: 40px;
+    
+}
+   
+.servicos {  
+    display: flex;
+    gap: 36px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens */
+    align-items: center;
+}
+
+.servicos img#MCA, 
+.servicos img#MAP {
+    border-radius: 20px;
+    max-width: 500px;
+    height: auto;
+   }
+
+/* Estilos para a seção de eBooks */
+#Ebooks {
+    background-color: white;
+        margin-bottom: 20px;
+}
+
+
+.ebooks-container {
+    display: flex;
+    gap: 36px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens */
+    align-items: flex-start;
+    margin-top: 16px;
+}
+
+.ebook-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-ebook button {
+    background-color: #bc9c9a;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background 0.3s;
+}
+
+.botao-ebook button:hover {
+    background-color: #2c3a2c;
+}
+
+.ebooks-container img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Opcional: borda arredondada */
+}
+
+/*Estilos para seção contato */
+#contact {
+    background-color:#bc9c9a;
+    text-align: center;
+}
+
+#contact h2 {
+    color: white;
+    }
+
+.contato-icones {
+    display: flex;
+    gap: 32px; /* Espaço entre os ícones */
+    justify-content: center; /* Centraliza os ícones */
+    align-items: center;
+    margin-top: 16px;
+}
+
+/* Formatação pag Atendimentos*/
+
+#lista-indicacao {
+    font-size: 20px;          /* aumenta a fonte */
+    color: #333;              /* cor do texto */
+    line-height: 1.6;         /* espaçamento entre linhas */
+    list-style-type: disc;    /* estilo dos marcadores (pode ser circle, square, none) */
+    padding-left: 20px;       /* espaço antes dos itens */
+    list-style: none; /* remove os marcadores padrão */
+    padding-left: 0;
+  }
+
+  #lista-indicacao li {
+    margin-bottom: 8px;       /* espaço entre os itens */
+    margin-left: 100px;
+  }
+
+#lista-indicacao li::before {
+  content: "✨ ";  /* ícone antes do item */
+  color: #2c3a2c; /* cor do ícone */}
+
+#fluxograma {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 16px;        /* Opcional: borda arredondada */
+    margin-top: -20px;
+}
+
+/* Formatação pag MAP*/
+#fluxo_MAP {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 16px;        /* Opcional: borda arredondada */
+    margin-top: -20px;
+}
